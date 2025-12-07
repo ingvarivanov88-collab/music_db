@@ -57,7 +57,7 @@ CREATE TABLE compilation_tracks (
     FOREIGN KEY (track_id) REFERENCES tracks(id) ON DELETE CASCADE
 );
 
--- ==================== ЧАСТЬ 2: ОСНОВНЫЕ ДАННЫЕ ====================
+
 INSERT INTO genres (name) VALUES 
 ('Рок'),
 ('Поп'),
